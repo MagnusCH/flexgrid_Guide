@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Youtube guide: https://youtu.be/qlA7dputiNc -->
+    <!-- Flexbox grid website: http://flexboxgrid.com/ -->
+
+
+    <!-- header start -->
+    <header>
+        <!-- row start -->
+        <div class="row middle-xs center-xs ">
+            <!-- col start -->
+            <div class="col-xs-12">
+                <h1>Udkast til: Flexbox grid Beginners guide</h1>
+            </div>
+            <!-- col end -->
+        </div>
+        <!-- row end -->
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main>
+        <!-- row start -->
+        <div class="row">
+            <!-- col 1 (xs-3) start -->
+            <div class="col-xs-3">
+                <!-- nav start -->
+                <nav>
+                    <ul>
+                        <li><a href="#grid-layout">Grid Layout</a></li>
+                        <li><a href="#responsive">Responsive</a></li>
+                        <li><a href="#offset">Offset</a></li>
+                        <li><a href="#nesting">Nesting</a></li>
+                        <li><a href="#aligement">Aligement</a></li>
+                        <li><a href="#auto-width">Auto Width</a></li>
+                        <li><a href="#distribution">Distribution</a></li>
+                        <li><a href="#reordering">Reordering</a></li>
+
+                    </ul>
+                </nav>
+                <!-- nav end -->
+            </div>
+            <!-- col 1 (xs-3) end -->
+
+            <!-- col 2 (xs-9) start -->
+            <div class="col-xs-9">
+
+
+                <!-- article start -->
+                <article id="grid-layout">
+                    <h2>Grid layout columns(12)</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt porro, odit. Id corporis dolorum accusantium, at itaque vel odit est animi ipsa. Facilis veritatis laborum distinctio aperiam ipsum vero cumque! </p>
+                    <!-- nesting kommer senere -->
+                    <!-- row start -->
+                    <div class="row center-xs">
+                        <div class="col-xs-1">
+                            <p class="cols">1</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">2</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">3</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">4</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">5</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">6</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">7</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">8</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">9</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">10</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">11</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <p class="cols">12</p>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                </article>
+                <!-- article end -->
+                <!-- article start -->
+                <article id="responsive">
+                    <h2>Responsive</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sed soluta cumque, voluptatem doloribus nulla tempore possimus ullam? Sit, esse ducimus quae voluptatem provident odit vero quos voluptatibus perferendis ea!</p>
+                    <!-- row start -->
+                    <div class="row center-xs">
+                        <div class="col-xs-6 col-sm-4 col-md-6 col-lg-3">
+                            <p class="cols">columns X</p>
+                        </div>
+                        <div class="col-xs-2 col-sm-6 col-md-2 col-lg-5">
+                            <p class="cols">columns X</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-2 col-md-4 col-lg-4">
+                            <p class="cols">columns X</p>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                </article>
+                <!-- article end -->
+                <article id="offset">
+                    <h2>Offset</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ea natus dolorem. Voluptates atque magni repudiandae quisquam blanditiis, ipsum quaerat unde modi ullam consequuntur esse vel eum, accusamus eos! Obcaecati!</p>
+                    <div class="row">
+                        <div class="col-xs-offset-11 col-xs-1">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-10 col-xs-2">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-9 col-xs-3">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-8 col-xs-4">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-7 col-xs-5">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-6 col-xs-6">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-5 col-xs-7">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-4 col-xs-8">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-3 col-xs-9">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-2 col-xs-10">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-1 col-xs-11">
+                            <p class="offCols">Test</p>
+                        </div>
+                    </div>
+
+
+                </article>
+                <article id="nesting">
+                    <h2>Nesting</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae error nemo amet repudiandae ipsam sed commodi atque accusamus, placeat officiis doloribus esse animi laboriosam officia consequatur. Consequatur dolor, similique? Nam.</p>
+                    <div class="row center-xs">
+                        <div class="col-xs-12" id="nest1">
+                            <p>Test</p>
+                            <div class="row center-xs">
+                                <div class="col-xs-6" id="nest2">
+                                    <p>Test</p>
+                                    <div class="row center-xs">
+                                        <div class="col-xs-6" id="nest3">
+                                            <p>Test</p>
+                                            <div class="row center-xs">
+                                                <div class="col-xs-6" id="nest3">
+                                                    <p>Test</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article id="aligement">
+                    <h2>Aligement</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illum quibusdam optio, molestiae eos veniam voluptate modi, rem labore quis dicta aperiam cum ullam asperiores hic repudiandae esse temporibus facere!</p>
+                    <h3>.start</h3>
+                    <div class="row start-xs">
+                        <div class="col-xs-12">
+                            <p class="bar">start</p>
+                        </div>
+                    </div>
+                    <h3>.center</h3>
+                    <div class="row center-xs">
+                        <div class="col-xs-12">
+                            <p class="bar">center</p>
+                        </div>
+                    </div>
+                    <h3>.end</h3>
+                    <div class="row end-xs">
+                        <div class="col-xs-12">
+                            <p class="bar">end</p>
+                        </div>
+                    </div>
+
+                    <!-- -->
+                    <!-- -->
+                    <h3>.top</h3>
+                    <div class="row top-xs">
+                        <div class="col-xs-12">
+                            <p>top</p>
+                        </div>
+                    </div>
+                    <h3>.middle</h3>
+                    <div class="row middle-xs">
+                        <div class="col-xs-12" id="middle">
+                            <p>middle</p>
+                        </div>
+                    </div>
+                    <h3>.bottom</h3>
+                    <div class="row bottom-xs">
+                        <div class="col-xs-12">
+                            <p>buttom</p>
+                        </div>
+                    </div>
+                </article>
+                <article id="auto-width">
+                    <h2>Auto width</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas porro fugiat cumque eum ullam soluta rerum delectus laboriosam voluptas. Officiis facere nostrum ut similique, dolorem, optio maxime deleniti qui blanditiis.</p>
+                    <div class="row">
+                        <div class="col-xs">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs ">
+                            <div class="box2"></div>
+                        </div>
+                    </div>
+                </article>
+                <article id="distribution">
+                    <h2>Distribution</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sit corrupti saepe, maiores assumenda! Molestiae natus minima reprehenderit maiores, ea velit placeat obcaecati autem, suscipit dolorum, pariatur praesentium nobis neque.</p>
+                    <h3>.around</h3>
+                    <div class="row around-xs">
+                        <div class="col-xs-2">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="box2"></div>
+                        </div>
+
+                    </div>
+                    <h3>.between</h3>
+                    <div class="row between-xs">
+                        <div class="col-xs-2">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="box2"></div>
+                        </div>
+                        <div class="col-xs-2">
+                            <div class="box2"></div>
+                        </div>
+
+
+                    </div>
+                </article>
+                <article id="reordering">
+                    <h2>Reordering</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nihil dolorem ab cum veniam ratione adipisci unde recusandae quae id placeat, dignissimos suscipit dolorum in accusantium expedita culpa officiis doloremque.</p>
+                    <h3>Uden Reordering</h3>
+                    <div class="row center-xs">
+                        <div class="col-xs-3">
+                            <p class="reCols">1</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="reCols">2</p>
+                        </div>
+                        <div class="col-xs-3 ">
+                            <p class="reCols">3</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="reCols">4</p>
+                        </div>
+                    </div>
+                    <h3>.first</h3>
+                    <div class="row center-xs">
+                        <div class="col-xs-3">
+                            <p class="reCols">1</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="reCols">2</p>
+                        </div>
+                        <div class="col-xs-3 first-xs">
+                            <p class="reCols">3</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="reCols">4</p>
+                        </div>
+                    </div>
+                    <h3>.last</h3>
+                    <div class="row center-xs">
+                        <div class="col-xs-3">
+                            <p class="reCols">1</p>
+                        </div>
+                        <div class="col-xs-3 last-xs">
+                            <p class="reCols">2</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="reCols">3</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="reCols">4</p>
+                        </div>
+                    </div>
+                    <h3>.reverse</h3>
+                    <div class="row center-xs reverse">
+                        <div class="col-xs-3">
+                            <p class="reCols">1</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="reCols">2</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="reCols">3</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p class="reCols">4</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- col 2 (xs-9) end -->
+        </div>
+        <!-- row end -->
+    </main>
+    <!-- main end -->
+</body>
+
+</html>

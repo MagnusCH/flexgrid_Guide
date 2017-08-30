@@ -1,0 +1,73 @@
+/* line 3, flexgridGuide/css/style.scss */
+header {
+  max-width: 1250px;
+  width: 100%;
+  height: auto;
+  margin: auto; }
+
+/* line 10, flexgridGuide/css/style.scss */
+main {
+  max-width: 1250px;
+  width: 100%;
+  height: auto;
+  margin: 2% auto; }
+  /* line 15, flexgridGuide/css/style.scss */
+  main nav {
+    position: fixed; }
+    /* line 17, flexgridGuide/css/style.scss */
+    main nav ul {
+      margin: 0;
+      padding: 0; }
+    /* line 21, flexgridGuide/css/style.scss */
+    main nav li {
+      list-style: none; }
+    /* line 24, flexgridGuide/css/style.scss */
+    main nav a {
+      text-decoration: none;
+      color: black; }
+  /* line 30, flexgridGuide/css/style.scss */
+  main article {
+    margin: 1% 0;
+    border-top: 2px solid black; }
+    /* line 33, flexgridGuide/css/style.scss */
+    main article p.cols {
+      background-color: lightblue;
+      line-height: 80px; }
+    /* line 37, flexgridGuide/css/style.scss */
+    main article p.offCols {
+      background-color: lightblue;
+      line-height: 50px; }
+    /* line 41, flexgridGuide/css/style.scss */
+    main article p.reCols {
+      background-color: lightblue;
+      line-height: 50px; }
+    /* line 45, flexgridGuide/css/style.scss */
+    main article #nest1 {
+      border: 1px solid black;
+      height: auto;
+      background-color: lightblue; }
+    /* line 50, flexgridGuide/css/style.scss */
+    main article #nest2 {
+      border: 1px solid black;
+      height: auto; }
+    /* line 54, flexgridGuide/css/style.scss */
+    main article #nest3 {
+      border: 1px solid black;
+      height: auto; }
+    /* line 58, flexgridGuide/css/style.scss */
+    main article .box {
+      background-color: red;
+      height: 100px;
+      width: 100%; }
+    /* line 63, flexgridGuide/css/style.scss */
+    main article .box2 {
+      background-color: lightblue;
+      height: 20px;
+      border: 1px solid black; }
+    /* line 68, flexgridGuide/css/style.scss */
+    main article .bar {
+      height: 25px;
+      background-color: lightblue;
+      border: 1px solid black; }
+
+/*# sourceMappingURL=style.css.map */
